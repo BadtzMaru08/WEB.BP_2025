@@ -34,7 +34,7 @@ body{
     border: none;
     background-color: white;
     border-style: round;
-    border-radius: 10px;
+    border-radius: 60px;
 }
 
 .button-container{ 
@@ -68,7 +68,7 @@ button{
 }
 
 button:hover{
-    cursor: not-allowed;
+    cursor: pointer;
     transform: scale(1.05);
 }
 
