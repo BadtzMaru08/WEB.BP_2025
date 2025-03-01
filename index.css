@@ -32,9 +32,6 @@ body{
     font-size: 7rem;
     color: rgb(210, 35, 152);
     border: none;
-    background-color: white;
-    border-style: round;
-    border-radius: 60px;
 }
 
 .button-container{ 
@@ -42,7 +39,7 @@ body{
     flex-direction: row;
     border: none;
     justify-content: center;
-    margin: 30px;
+    margin: 40px;
 }
 .wallie-pic{
     border-style: ridge;
@@ -54,7 +51,7 @@ body{
     display:flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 40px;
     gap: 40px;
 }
 button{
