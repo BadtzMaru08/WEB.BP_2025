@@ -1,0 +1,137 @@
+*{
+    font-family: "Chango", "Static";
+}
+
+.all-about-wallie{
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    color: rgb(210, 35, 152)
+}
+ol{
+    text-align: center;
+    color: rgb(210, 35, 152);
+    font-size: 1.2rem;
+    background-color: rgb(235, 180, 217);
+    border: none;
+    border-radius: 10px;
+    padding: 80px;
+}
+.body-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+body{
+    background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgb(255, 214, 240) 35%);
+}
+.the-title{
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 7rem;
+    color: rgb(210, 35, 152);
+    border: none;
+    background-color: white;
+    border-style: round;
+    border-radius: 10px;
+}
+
+.button-container{ 
+    display: flex;
+    flex-direction: row;
+    border: none;
+    justify-content: center;
+    margin: 30px;
+}
+.wallie-pic{
+    border: 20px solid rgb(210, 35, 152);
+    border-style: ridge;
+    border-radius: 20%;
+    box-shadow: 5px 9px 0px rgb(255, 241, 250);
+    object-fit: cover;
+}
+.wallie-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 40px;
+}
+button{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 10px;
+    letter-spacing: 1px;
+}
+
+button:hover{
+    cursor: not-allowed;
+    transform: scale(1.05);
+}
+
+#sumbit{
+    background-color: rgb(210, 35, 152);
+    width: 200px;
+}
+
+#sumbit:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+#random{
+    animation-name: color-change;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    width: 200px;
+}
+
+@keyframes color-change {
+    0%{
+        background-color:rgb(210, 35, 152)
+    }
+    20%{
+        background-color:rgb(239, 155, 211)
+    }
+    40%{
+        background-color:rgb(235, 180, 217)
+    }
+    60%{
+        background-color:rgb(210, 35, 152)
+    }
+    80%{
+        background-color:rgb(189, 99, 159)
+    }
+    100%{
+        background-color:rgb(210, 35, 152)
+    }
+}
+
+#breed{
+    padding: 20px;
+    margin: 20px;
+    width: 800px;
+    height: 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+}
+
+#breed::placeholder{
+    color: rgb(128, 17, 91);
+}
+
+#breed:hover
+{
+    background-color: rgb(255, 255, 255);
+}
+
+#breed:focus{
+    background-color: 5px solid rgb(210, 35, 152);
+}
