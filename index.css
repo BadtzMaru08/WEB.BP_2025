@@ -27,6 +27,7 @@ body{
     background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgb(255, 214, 240) 35%);
 }
 .the-title{
+    padding-top: 40px;
     text-align: center;
     letter-spacing: 5px;
     font-size: 7rem;
@@ -39,7 +40,7 @@ body{
     flex-direction: row;
     border: none;
     justify-content: center;
-    margin: 40px;
+    padding: 40px;
 }
 .wallie-pic{
     border-style: ridge;
@@ -138,4 +139,9 @@ button:hover{
     border-radius: 20%;
     box-shadow: 5px 9px 0px rgb(255, 241, 250);
     object-fit: cover;
+}
+
+hr{
+    border: 5px solid rgb(210, 35, 152);
+    width: 50%;
 }
